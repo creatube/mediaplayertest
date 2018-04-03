@@ -7,6 +7,8 @@ import { Config, Nav, Platform } from 'ionic-angular';
 import { FirstRunPage } from '../pages/pages';
 import { Settings } from '../providers/providers';
 
+// import { YoutubePage } from '../pages/youtube/youtube';
+
 @Component({
   template: `<ion-menu [content]="content">
     <ion-header>
@@ -28,6 +30,7 @@ import { Settings } from '../providers/providers';
 })
 export class MyApp {
   rootPage = FirstRunPage;
+  // rootPage = YoutubePage;
 
   @ViewChild(Nav) nav: Nav;
 
